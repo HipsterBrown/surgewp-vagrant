@@ -45,7 +45,7 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   $ cd <project name>
   $ vagrant up
   ```
-6. Change directories to the `www/surgewp-skeleton/` folder and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `www/surge-skeleton/` folder is where you should be doing most of your coding, commits, and deployments):
+6. Change directories to the `www/surgewp-skeleton/` folder and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `www/surgewp-skeleton/` folder is where you should be doing most of your coding, commits, and deployments):
 
   ```
   $ git remote set-url origin git://your.git.repository
@@ -56,6 +56,12 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   * Find where it says `Site Address (URL)`.
   * Change it from `local.surgewp-skeleton.dev/wp` to `local.surgewp-skeleton.dev`
   * Don't change the section `WordPress Address (URL)`!
+
+### Vagrant Machine
+Visit any of the following default sites in your browser:
+  
+  * http://local.surgewp-skeleton.dev/ for your WordPress dev site
+  * http://vvv.dev/ for a default dashboard containing several useful tools
 
 ### Deployment with Capistrano
 #### `config.rb`
