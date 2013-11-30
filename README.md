@@ -34,24 +34,24 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   ```
   $ vagrant plugin install vagrant-hostsupdater
   ```
-4. Clone SurgeWP Vagrant (make sure to either delete the `.git` in the root, or never to push from root, unless you're explicitly commiting to the SurgeWP Vagrant core):
+4. Clone SurgeWP Vagrant (make sure to either delete the `.git` in the root or to never push from root, unless you're explicitly commiting to the SurgeWP Vagrant core):
 
   ```
   $ git clone git://github.com/SurgeWP/surgewp-vagrant.git <project name>
   ```
-5. Change directories into your project folder, start Vagrant and let the machine provision (it should take a few minutes):
+5. Change directories into your project folder, start Vagrant, and let the machine provision (it should take a few minutes):
 
   ```
   $ cd <project name>
   $ vagrant up
   ```
-6. Change directories to the `surgewp-skeleton` root and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `surge-skeleton` root is where you should be doing most of your commits and deployments):
+6. Change directories to the `www/surgewp-skeleton/` root and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `www/surge-skeleton/` root is where you should be doing most of your coding, commits, and deployments):
 
   ```
   $ git remote set-url origin git://your.git.repository
   ```
 7. Make sure the database credientials in `www/surgewp-skeleton/local-config.php` match the SurgeWP Vagrant database.
-8. Visit the [http://local.surgewp-skeleton.dev/wp/wp-admin/install.php](http://local.surgewp-skeleton.dev/wp/wp-admin/install.php) and install WordPress.
+8. Go to [http://local.surgewp-skeleton.dev/wp/wp-admin/install.php](http://local.surgewp-skeleton.dev/wp/wp-admin/install.php) and install WordPress.
 9. After the install, log in and go to the `Settings -> General` section.
   * Find where it says `Site Address (URL)`.
   * Change it from `local.surgewp-skeleton.dev/wp` to `local.surgewp-skeleton.dev`
