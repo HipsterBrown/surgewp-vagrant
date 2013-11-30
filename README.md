@@ -45,7 +45,7 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   $ cd <project name>
   $ vagrant up
   ```
-6. Change directories to the `www/surgewp-skeleton/` root and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `www/surge-skeleton/` root is where you should be doing most of your coding, commits, and deployments):
+6. Change directories to the `www/surgewp-skeleton/` folder and change the git remote to point towards your github repository (if it doesn't exist, log into your github account and create it - the `www/surge-skeleton/` folder is where you should be doing most of your coding, commits, and deployments):
 
   ```
   $ git remote set-url origin git://your.git.repository
