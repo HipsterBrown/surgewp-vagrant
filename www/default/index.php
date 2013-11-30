@@ -27,8 +27,7 @@ if ( file_exists( 'dashboard-custom.php' ) ) {
 </ul>
 
 <ul class="nav">
-	<li><a href="http://local.surgewp-skeleton.dev/">http://local.surgewp-skeleton.dev</a> for SurgeWP Skeleton dev site</li>
-	<li><a href="http://local.wordpress.dev/">http://local.wordpress.dev</a> for default WordPress dev site</li>
+	<li><a href="http://local.surgewp-skeleton.dev/">http://local.surgewp-skeleton.dev</a>SurgeWP Skeleton dev site</li>
 </ul>
 </body>
 </html>
