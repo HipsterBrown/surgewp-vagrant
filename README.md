@@ -11,6 +11,9 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
 ### What You Get
 
   * A robust Vagrant development environment based off of [Varying Vagrant Vagrants](https://github.com/10up/varying-vagrant-vagrants)
+    * After the install, visit any of the following default sites in your browser:
+      * http://local.surgewp-skeleton.dev/ for your WordPress dev site
+      * http://surgewp.dev/ for a default dashboard containing several useful tools
   * Out of the box incorporation with the [SurgeWP Skeleton](https://github.com/SurgeWP/surgewp-skeleton), which includes:
     * WordPress 3.6.1
     * [Roots](http://roots.io/) starter theme (with [Bootstrap](http://getbootstrap.com/) goodness)
@@ -57,13 +60,11 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   * Change it from `local.surgewp-skeleton.dev/wp` to `local.surgewp-skeleton.dev`
   * Don't change the section `WordPress Address (URL)`!
 
-### Vagrant Machine
-Visit any of the following default sites in your browser:
-  
-  * http://local.surgewp-skeleton.dev/ for your WordPress dev site
-  * http://vvv.dev/ for a default dashboard containing several useful tools
-
 ### Deployment with Capistrano
+
+ * From the [SurgeWP Skeleton](https://github.com/SurgeWP/surgewp-skeleton) README. 
+ * Make sure you are in the `www/surgewp-skeleton/` folder when doing anything with Capistrano!
+
 #### `config.rb`
 
 1. Open `config/config.rb`.
