@@ -49,8 +49,8 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
   $ vagrant up
   ```
 6. Change directories to the `www/` folder and create a new project using the SurgeWP Skeleton (guide can be found at the SurgeWP Skeleton [repo](https://github.com/SurgeWP/surgewp-skeleton#surgewp-skeleton)).
-7. To configure a new site use the [CFTP vvv-init](https://github.com/cftp/vvv-init/) auto site setup.
-8. Once you have configured everything you should be able to restart SurgeWP Vagrant and start working on your new site:
+
+7. Once you have configured everything you should be able to restart SurgeWP Vagrant and start working on your new site:
 
   ```
   $ vagrant reload --provision
