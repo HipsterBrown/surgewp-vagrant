@@ -1,7 +1,7 @@
 # SurgeWP Vagrant
 A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.com/SurgeWP/surgewp-skeleton). Currently being battle tested at [SurgeWP](http://www.surgewp.com/).
 
-  * **Version**: 0.1.0
+  * **Version**: 0.0.1
   * **Contributors**:
     * Connor Black 
       * Github: [@connorblack](http://github.com/connorblack)
@@ -15,7 +15,7 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
       * http://local.surgewp-skeleton.dev/ for your WordPress dev site
       * http://surgewp.dev/ for a default dashboard containing several useful tools
   * Out of the box incorporation with the [SurgeWP Skeleton](https://github.com/SurgeWP/surgewp-skeleton), which includes:
-    * WordPress 3.6.1
+    * WordPress 3.8
     * [Roots](http://roots.io/) starter theme (with [Bootstrap](http://getbootstrap.com/) goodness)
     * [Grunt](http://gruntjs.com/) workflow
     * [Capistrano](http://www.capistranorb.com/) and deployment recipes 
