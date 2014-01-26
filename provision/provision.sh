@@ -458,16 +458,6 @@ if [[ $ping_result == *bytes?from* ]]; then
 		git pull --rebase origin master
 	fi
 
-	# Install and configure the latest stable version of WordPress
-	if [[ ! -d /srv/www/surgewp-skeleton ]]; then
-		echo "Downloading SurgeWP Skeleton..."
-		cd /srv/www/		
-		git clone https://github.com/SurgeWP/surgewp-skeleton.git surgewp-skeleton
-		cd surgewp-skeleton
-		git submodule update --init
-		mkdir -p shared/content/uploads/
-	fi
-
 	# Download phpMyAdmin 4.0.9
 	if [[ ! -d /srv/www/default/database-admin ]]; then
 		echo "Downloading phpMyAdmin 4.0.9..."
