@@ -30,7 +30,7 @@ A Vagrant configuration that incorporates the [SurgeWP Skeleton](https://github.
 
 ### Getting started
 
-1. Install [VirtualBox 4.3.2](https://www.virtualbox.org/wiki/Downloads)
+1. Install [VirtualBox 4.2.22](https://www.virtualbox.org/wiki/Download_Old_Builds_4_2)
 2. Install the latest version of [Vagrant](http://www.vagrantup.com/downloads.html)
 3. Install the [vagrant-hostsupdater](https://github.com/cogitatio/vagrant-hostsupdater)
 
